@@ -78,9 +78,7 @@ interface EntityInterface
      * function to check if they exist or ```unset()``` if the attribute
      * needs to be deleted.
      *
-     * @param string $attribute
-     *
-     * @return string|array|null|bool
+     * @return AttributeBag
      */
     public function attributes(): AttributeBag;
 
